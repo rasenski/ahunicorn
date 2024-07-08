@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to Blowfish! :tada: on ah.unicorn</title>
+    <link>http://localhost:1313/about/content/</link>
+    <description>Recent content in Welcome to Blowfish! :tada: on ah.unicorn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Andreas Hauke</copyright>
+    <lastBuildDate>Wed, 04 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/about/content/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Benvenuti a Blowfish!</title>
+      <link>http://localhost:1313/about/content/_index.it/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/_index.it/</guid>
+      <description>Questa è una demo del layout background.</description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish へようこそ! :tada:</title>
+      <link>http://localhost:1313/about/content/_index.ja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/_index.ja/</guid>
+      <description> こちらは background レイアウトのデモです。 レイアウトを変更する&amp;orarr; npx blowfish-tools </description>
+      
+    </item>
+    
+    <item>
+      <title>欢迎来到 Blowfish! :tada:</title>
+      <link>http://localhost:1313/about/content/_index.zh-cn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/_index.zh-cn/</guid>
+      <description> 这是 background 的样式示例。 切换 layout &amp;orarr; npx blowfish-tools </description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation on ah.unicorn</title>
+    <link>http://localhost:1313/series/documentation/</link>
+    <description>Recent content in Documentation on ah.unicorn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Andreas Hauke</copyright>
+    <atom:link href="http://localhost:1313/series/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to Blowfish</title>
+      <link>http://localhost:1313/about/content/docs/welcome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/docs/welcome/</guid>
+      <description>Blowfish is packed with tons of features.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/content/docs/welcome/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>http://localhost:1313/about/content/docs/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/docs/installation/</guid>
+      <description>Simply follow the standard Hugo Quick Start procedure to get up and running quickly.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/content/docs/installation/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>http://localhost:1313/about/content/docs/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/docs/getting-started/</guid>
+      <description>This section assumes you have already installed the Blowfish theme.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/content/docs/getting-started/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Configuration</title>
+      <link>http://localhost:1313/about/content/docs/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/docs/configuration/</guid>
+      <description>Blowfish is a highly customisable theme and uses some of the latest Hugo features to simplify how it is configured.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/content/docs/configuration/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Homepage Layout</title>
+      <link>http://localhost:1313/about/content/docs/homepage-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/docs/homepage-layout/</guid>
+      <description>Blowfish provides a fully flexible homepage layout.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/content/docs/homepage-layout/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Shortcodes</title>
+      <link>http://localhost:1313/about/content/docs/shortcodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/docs/shortcodes/</guid>
+      <description>In addition to all the default Hugo shortcodes, Blowfish adds a few extras for additional functionality.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/content/docs/shortcodes/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Front Matter</title>
+      <link>http://localhost:1313/about/content/docs/front-matter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/docs/front-matter/</guid>
+      <description>In addition to the default Hugo front matter parameters, Blowfish adds a number of additional options to customise the presentation of individual articles.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/content/docs/front-matter/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Multiple Authors</title>
+      <link>http://localhost:1313/about/content/docs/multi-author/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/docs/multi-author/</guid>
+      <description>Some websites have more than one author contributing with content and therefore require more than a single default author across the entire website.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/content/docs/multi-author/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Partials</title>
+      <link>http://localhost:1313/about/content/docs/partials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/docs/partials/</guid>
+      <description>Analytics # Blowfish provides built-in support for Fathom Analytics, Google Analytics and Umami Analytics.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/content/docs/partials/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Thumbnails</title>
+      <link>http://localhost:1313/about/content/docs/thumbnails/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/docs/thumbnails/</guid>
+      <description>Thumbnails # Blowfish was enhanced in order to make it easy to add visual support to your posts.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/content/docs/thumbnails/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Content Examples</title>
+      <link>http://localhost:1313/about/content/docs/content-examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/docs/content-examples/</guid>
+      <description>If you&amp;rsquo;ve been reading the documentation in order, you should now know about all the features and configurations available in Blowfish.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/content/docs/content-examples/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Series</title>
+      <link>http://localhost:1313/about/content/docs/series/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/docs/series/</guid>
+      <description>Blowfish provides a feature to group a set of articles together under a &amp;ldquo;series&amp;rdquo;.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/content/docs/series/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Advanced Customisation</title>
+      <link>http://localhost:1313/about/content/docs/advanced-customisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/docs/advanced-customisation/</guid>
+      <description>There are many ways you can make advanced changes to Blowfish.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/content/docs/advanced-customisation/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Hosting &amp; Deployment</title>
+      <link>http://localhost:1313/about/content/docs/hosting-deployment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/docs/hosting-deployment/</guid>
+      <description>There are many ways to deploy your Hugo website built with Blowfish.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/content/docs/hosting-deployment/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Firebase: Views &amp; Likes</title>
+      <link>http://localhost:1313/about/content/docs/firebase-views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/content/docs/firebase-views/</guid>
+      <description>In order to be able to support dynamic data across your website we&amp;rsquo;ve added the support to integrate Firebase.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/content/docs/firebase-views/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

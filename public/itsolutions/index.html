@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="content-language" content="en" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>it solutions &middot; ah.unicorn</title>
+  <meta name="title" content="it solutions &middot; ah.unicorn" />
+  
+  <meta name="description" content="Sit, Fly, Hold." />
+  
+  
+  
+  <link rel="canonical" href="http://localhost:1313/itsolutions/" />
+  
+  <link rel="alternate" type="application/rss+xml" href="/itsolutions/index.xml" title="ah.unicorn" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.504c15393bfbd609daf762a1fd120f1dbeacfa0f23da43668fcaa41863ecd4f2e5e6b7565a79293d2aec9324a8e374e033535805de30b69119c9180950250357.css"
+    integrity="sha512-UEwVOTv71gna92Kh/RIPHb6s&#43;g8j2kNmj8qkGGPs1PLl5rdWWnkpPSrskySo43TgM1NYBd4wtpEZyRgJUCUDVw==" />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.b3e22525a7c62c7b8e4c7c002546ab6498031635fa2d07802d593d476d7ab1262ec61b0cec0fe9f5653e1c9e6c256cbd0b66e5a8421b4f82a7bd2c1d5c901638.js"
+    integrity="sha512-s&#43;IlJafGLHuOTHwAJUarZJgDFjX6LQeALVk9R216sSYuxhsM7A/p9WU&#43;HJ5sJWy9C2blqEIbT4KnvSwdXJAWOA==" data-copy="" data-copied=""></script>
+  
+  
+  <script src="/js/zoom.min.js"></script>
+  
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:1313/itsolutions/">
+  <meta property="og:site_name" content="ah.unicorn">
+  <meta property="og:title" content="it solutions">
+  <meta property="og:description" content="github kubernetes golang &lt;?">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="it solutions">
+  <meta name="twitter:description" content="github kubernetes golang &lt;?">
+
+  
+  
+
+  
+  
+  <meta name="author" content="Andreas Hauke" />
+  
+  
+  
+  <link href="mailto:andreas.p.hauke&#43;unicorn@gmail.com" rel="me" />
+  
+  
+  <link href="https://github.com/rasenski" rel="me" />
+  
+  
+  <link href="https://instagram.com/rasen.the.monk" rel="me" />
+  
+  
+  <link href="https://linkedin.com/in//andreas-hauke-a860a7166" rel="me" />
+  
+  
+  <link href="https://youtube.com/rasenski" rel="me" />
+  
+  
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script defer src="/lib/typeit/typeit.umd.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+  
+  
+  <meta name="theme-color"/>
+  
+  
+</head>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Skip to main content</a>
+  </div>
+  
+  
+  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    
+    
+    
+    <div>
+        <a href="/" class="flex">
+            <span class="sr-only">ah.unicorn</span>
+
+            <img src="/img/transparent_unicorn.png" width="512" height="512"
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="ah.unicorn" />
+
+        </a>
+    </div>
+    
+    <div class="flex flex-1 items-center justify-between">
+        <nav class="flex space-x-3">
+
+            
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">ah.unicorn</a>
+            
+
+        </nav>
+        <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
+
+            
+            
+            
+  <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        hire me
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/itsolutions/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        itsolutions
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/drones/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        drones
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/paragliding/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        paragliding
+    </p>
+</a>
+
+
+
+            
+            
+
+            
+
+
+            
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+
+            
+            
+            <div
+                class="ltr:mr-14 rtl:ml-14 flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                    </div>
+                    <div class="items-center justify-center hidden dark:flex">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                    </div>
+                </button>
+            </div>
+            
+
+        </nav>
+        <div class="flex md:hidden items-center space-x-5 md:ml-12 h-12">
+
+            <span></span>
+
+            
+
+
+            
+            <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+            
+            
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" style="margin-right:5px">
+                <div class="flex items-center justify-center dark:hidden">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                </div>
+                <div class="items-center justify-center hidden dark:flex">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                </div>
+            </button>
+            
+
+        </div>
+    </div>
+    <div class="-my-2 -mr-2 md:hidden">
+
+        <label id="menu-button" for="menu-controller" class="block">
+            <input type="checkbox" id="menu-controller" class="hidden" />
+            
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+  </span>
+
+
+            </div>
+            <div id="menu-wrapper" style="padding-top:5px;"
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                <ul
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li>
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+</span>
+                    </li>
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            hire me
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/itsolutions/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            itsolutions
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/drones/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            drones
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/paragliding/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            paragliding
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                </ul>
+                
+                
+
+            </div>
+        </label>
+    </div>
+</div>
+
+
+
+
+
+  
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+      
+
+
+ <header>
+  
+  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">it solutions</h1>
+  <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+</div>
+
+
+  </div>
+  
+  
+    
+    
+      
+      
+    
+  <script>
+    var oid = "views_itsolutions\/_index.md"
+    var oid_likes = "likes_itsolutions\/_index.md"
+  </script>
+  
+  
+  
+  <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+  </header>
+  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
+    
+    <div class="min-w-0 min-h-0 max-w-prose">
+      <h3 id="typeit-ace176533de27716c9a41acdd4b00cc5"></h3>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-ace176533de27716c9a41acdd4b00cc5", {
+        strings: ["","","When you need an Unicorn Engineer.","","",""],
+        speed:  100 ,
+        lifeLike:  true ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+<p>
+<div class="flex mt-2">
+<span
+  class="rounded-full bg-primary-500 dark:bg-primary-400 text-neutral-50 dark:text-neutral-800 px-1.5 py-[1px] text-xs font-normal"
+>
+  <span class="flex flex-row items-center">
+    
+    <span class="mr-1">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+</span>
+    
+    <span><em>github</em></span>
+  </span>
+</span>
+</div>
+
+<div class="flex mt-2">
+<span
+  class="rounded-full bg-primary-500 dark:bg-primary-400 text-neutral-50 dark:text-neutral-800 px-1.5 py-[1px] text-xs font-normal"
+>
+  <span class="flex flex-row items-center">
+    
+    <span class="mr-1">
+
+  <span class="relative block icon">
+    
+<svg height="800" viewBox="0 -10.44 722.846 722.846" width="800" xmlns="http://www.w3.org/2000/svg"><path d="m358.986 10.06a46.725 46.342 0 0 0 -17.906 4.531l-244.344 116.75a46.725 46.342 0 0 0 -25.28 31.438l-60.282 262.25a46.725 46.342 0 0 0 6.344 35.531 46.725 46.342 0 0 0 2.656 3.688l169.125 210.28a46.725 46.342 0 0 0 36.531 17.438l271.219-.062a46.725 46.342 0 0 0 36.531-17.406l169.063-210.313a46.725 46.342 0 0 0 9.03-39.219l-60.373-262.25a46.725 46.342 0 0 0 -25.281-31.437l-244.376-116.689a46.725 46.342 0 0 0 -22.657-4.53z" fill="#326ce5"/><path d="m361.408 99.307c-8.077.001-14.626 7.276-14.625 16.25 0 .138.028.27.03.406-.011 1.22-.07 2.689-.03 3.75.192 5.176 1.32 9.138 2 13.907 1.23 10.206 2.26 18.667 1.625 26.531-.62 2.965-2.803 5.677-4.75 7.562l-.344 6.188a190.337 190.337 0 0 0 -26.438 4.062c-37.974 8.623-70.67 28.184-95.562 54.594a245.167 245.167 0 0 1 -5.281-3.75c-2.612.353-5.25 1.159-8.688-.844-6.545-4.405-12.506-10.486-19.719-17.812-3.305-3.504-5.698-6.841-9.625-10.219-.891-.767-2.252-1.804-3.25-2.594-3.07-2.447-6.69-3.724-10.187-3.843-4.496-.154-8.824 1.604-11.656 5.156-5.036 6.315-3.424 15.968 3.593 21.562.071.057.147.101.219.157.964.781 2.145 1.783 3.031 2.437 4.167 3.077 7.973 4.652 12.125 7.094 8.747 5.402 15.999 9.88 21.75 15.281 2.246 2.394 2.639 6.613 2.938 8.438l4.687 4.187c-25.093 37.764-36.707 84.41-29.843 131.938l-6.125 1.781c-1.615 2.085-3.896 5.365-6.282 6.344-7.525 2.37-15.994 3.24-26.218 4.312-4.8.4-8.943.161-14.032 1.125-1.12.212-2.68.619-3.906.906l-.125.032c-.067.015-.155.048-.219.062-8.62 2.083-14.157 10.006-12.375 17.813 1.783 7.808 10.203 12.556 18.875 10.687.063-.014.154-.017.219-.031.098-.022.184-.07.281-.094 1.21-.265 2.724-.56 3.782-.843 5.003-1.34 8.626-3.308 13.125-5.032 9.676-3.47 17.691-6.37 25.5-7.5 3.26-.255 6.697 2.012 8.406 2.969l6.375-1.094c14.67 45.483 45.414 82.245 84.344 105.313l-2.657 6.375c.958 2.475 2.014 5.824 1.3 8.27-2.838 7.36-7.7 15.13-13.237 23.792-2.681 4.002-5.425 7.108-7.844 11.688-.579 1.096-1.316 2.78-1.875 3.937-3.759 8.043-1.002 17.305 6.219 20.782 7.266 3.497 16.284-.192 20.187-8.25.006-.012.026-.02.031-.032.004-.009-.004-.022 0-.03.556-1.143 1.344-2.645 1.813-3.72 2.072-4.747 2.762-8.815 4.219-13.406 3.87-9.72 5.995-19.919 11.322-26.274 1.459-1.74 3.837-2.41 6.303-3.07l3.312-6c33.938 13.027 71.927 16.523 109.875 7.907a189.77 189.77 0 0 0 25.094-7.563c.93 1.651 2.661 4.826 3.125 5.625 2.506.815 5.24 1.236 7.469 4.531 3.985 6.81 6.71 14.865 10.031 24.594 1.457 4.591 2.178 8.66 4.25 13.406.472 1.082 1.256 2.605 1.812 3.75 3.895 8.085 12.943 11.787 20.22 8.282 7.219-3.478 9.979-12.74 6.218-20.782-.559-1.158-1.327-2.841-1.906-3.937-2.42-4.58-5.163-7.655-7.844-11.656-5.537-8.662-10.13-15.858-12.969-23.22-1.187-3.796.2-6.157 1.125-8.624-.554-.635-1.739-4.22-2.437-5.906 40.457-23.889 70.298-62.022 84.312-106.063 1.893.298 5.182.88 6.25 1.094 2.2-1.45 4.222-3.344 8.188-3.031 7.808 1.129 15.823 4.03 25.5 7.5 4.498 1.723 8.121 3.723 13.125 5.062 1.057.283 2.572.547 3.781.813.097.023.183.071.281.093.066.015.156.017.219.032 8.672 1.866 17.094-2.88 18.875-10.688 1.78-7.807-3.754-15.732-12.375-17.812-1.254-.286-3.032-.77-4.25-1-5.09-.964-9.231-.727-14.031-1.125-10.225-1.072-18.694-1.943-26.219-4.313-3.068-1.19-5.251-4.841-6.313-6.344l-5.906-1.718c3.062-22.155 2.237-45.212-3.062-68.282-5.349-23.284-14.8-44.58-27.407-63.343 1.515-1.378 4.377-3.911 5.188-4.657.237-2.624.033-5.375 2.75-8.281 5.751-5.4 13.003-9.879 21.75-15.281 4.152-2.443 7.99-4.017 12.156-7.094.942-.696 2.23-1.798 3.219-2.594 7.015-5.596 8.63-15.248 3.594-21.562-5.037-6.314-14.797-6.91-21.813-1.313-.998.791-2.353 1.823-3.25 2.594-3.926 3.378-6.351 6.714-9.656 10.219-7.213 7.326-13.174 13.438-19.719 17.844-2.836 1.65-6.99 1.08-8.875.968l-5.562 3.969c-31.72-33.26-74.905-54.525-121.406-58.656-.13-1.949-.3-5.471-.344-6.532-1.904-1.821-4.204-3.376-4.781-7.312-.637-7.864.426-16.325 1.656-26.531.679-4.769 1.807-8.73 2-13.907.044-1.176-.027-2.884-.031-4.156-.001-8.974-6.548-16.25-14.625-16.25zm-18.313 113.438-4.344 76.718-.312.157c-.292 6.863-5.94 12.343-12.875 12.343-2.841 0-5.463-.912-7.594-2.468l-.125.062-62.906-44.594c19.333-19.01 44.063-33.06 72.562-39.53a154.125 154.125 0 0 1 15.594-2.688zm36.656 0c33.274 4.092 64.045 19.159 87.625 42.25l-62.5 44.312-.218-.093c-5.548 4.051-13.364 3.046-17.688-2.375a12.807 12.807 0 0 1 -2.812-7.47l-.063-.03zm-147.625 70.875 57.438 51.375-.063.312c5.185 4.507 5.95 12.328 1.625 17.75a12.892 12.892 0 0 1 -6.687 4.406l-.063.25-73.625 21.25c-3.747-34.265 4.329-67.573 21.375-95.343zm258.157.03c8.534 13.833 14.996 29.283 18.843 46.032 3.801 16.548 4.755 33.067 3.188 49.031l-74-21.312-.063-.313c-6.626-1.81-10.699-8.551-9.156-15.312a12.786 12.786 0 0 1 4.094-6.844l-.031-.156 57.125-51.125zm-140.657 55.313h23.532l14.625 18.282-5.25 22.812-21.125 10.156-21.188-10.187-5.25-22.813zm75.438 62.563c1-.05 1.995.04 2.969.219l.125-.157 76.156 12.875c-11.146 31.314-32.473 58.44-60.969 76.594l-29.562-71.406.093-.125c-2.715-6.31.002-13.71 6.25-16.719 1.6-.77 3.271-1.197 4.938-1.281zm-127.906.312c5.811.082 11.024 4.116 12.375 10.032.632 2.77.324 5.513-.72 7.937l.22.281-29.25 70.688c-27.348-17.549-49.13-43.824-60.782-76.063l75.5-12.812.125.156c.845-.155 1.701-.23 2.532-.219zm63.78 30.97a12.764 12.764 0 0 1 6.032 1.28c2.56 1.233 4.537 3.174 5.781 5.5h.282l37.218 67.25a154.256 154.256 0 0 1 -14.875 4.157c-28.464 6.463-56.838 4.504-82.53-4.25l37.124-67.125h.063a12.91 12.91 0 0 1 10.906-6.813z" fill="#fff" stroke="#fff" stroke-width=".25"/></svg>
+  </span>
+
+</span>
+    
+    <span><em>kubernetes</em></span>
+  </span>
+</span>
+</div>
+
+<div class="flex mt-2">
+<span
+  class="rounded-full bg-primary-500 dark:bg-primary-400 text-neutral-50 dark:text-neutral-800 px-1.5 py-[1px] text-xs font-normal"
+>
+  <span class="flex flex-row items-center">
+    
+    <span class="mr-1">
+
+  <span class="relative block icon">
+    <svg height="800" preserveAspectRatio="xMidYMid" viewBox="0 -160 512 512" width="800" xmlns="http://www.w3.org/2000/svg"><path d="m292.533152 13.2950639 1.124081.7504437c13.212082 8.7249602 22.684896 20.6906199 28.917011 35.1491255 1.495707 2.2435612.498569 3.489984-2.492846 4.2378378l-5.063657 1.2953223c-11.446574 2.9490126-20.530586 5.4288641-31.826357 8.3778768l-6.442974 1.6787162c-2.320146.5739764-2.960715.3326834-5.427977-2.4770145l-.348097-.3992252c-3.519312-3.9885532-6.155345-6.6521891-10.817723-9.0300585l-.898652-.4427554c-15.704928-7.7278219-30.911288-5.4842607-45.120509 3.7392686-16.951351 10.9685215-25.676311 27.172019-25.427027 47.3640698.249285 19.942767 13.959937 36.395549 33.653418 39.137679 16.951352 2.243561 31.160573-3.739269 42.378379-16.452782 2.243561-2.74213 4.237837-5.733545 6.730683-9.223529h-48.111923c-5.234976 0-6.481399-3.2407-4.736407-7.478538l.864273-2.034237c3.203696-7.454085 8.172834-18.1686696 11.400387-24.2946975l.704121-1.318221c.861527-1.4942118 2.611505-3.5134168 5.976847-3.5134168l80.223658-.0005805c3.60305-11.4147273 9.448979-22.2006892 17.246612-32.4064147 18.197774-23.9313194 40.134817-36.39554827 69.799681-41.63052443 25.427027-4.48712239 49.358347-1.99427662 71.046105 12.71351343 19.693482 13.4613672 31.908426 31.6591414 35.149126 55.5904609 4.237837 33.6534186-5.484261 61.0747216-28.667727 84.5074726-16.452782 16.702066-36.644833 27.172019-59.828299 31.908426-6.730683 1.246422-13.461367 1.495707-19.942766 2.243561-22.684896-.498569-43.375516-6.979968-60.825437-21.937043-12.2731-10.608951-20.727357-23.648075-24.928224-38.827673-2.914685 5.887669-6.400772 11.526403-10.470186 16.89063-17.948489 23.682035-41.38124 38.389825-71.046105 42.378378-24.429888 3.2407-47.114785-1.495707-67.057551-16.452782-18.447059-13.959936-28.917011-32.406995-31.659141-55.341176-3.2407-27.1720195 4.736407-51.6019081 21.189189-73.0403818 17.699205-23.1834657 41.131955-37.89125577 69.799682-43.1262319 22.99881-4.15935935 45.037071-1.59487417 64.936332 11.4645006zm118.587132 35.7220584-.797869.1775108c-23.183466 5.2349761-38.14054 19.9427662-43.624801 43.3755165-4.487122 19.4441974 4.985692 39.1376794 22.934181 47.1147854 13.710652 5.98283 27.421304 5.234976 40.633386-1.495707 19.693482-10.220668 30.412719-26.174881 31.659142-47.613355-.249285-3.2406995-.249285-5.7335453-.747854-8.2263911-4.436705-24.4018791-26.664543-38.3240499-50.056185-33.3323596zm-294.704386 45.5473039c.997138 0 1.495707.7478537 1.495707 1.7449921l-.498569 5.9828297c0 .997139-.997138 1.744992-1.744992 1.744992l-54.3440379-.249284c-.9971383 0-1.2464228-.747854-.7478537-1.495708l3.4899841-6.2321143c.4985692-.7478538 1.4957075-1.4957075 2.4928458-1.4957075zm5.484261-22.9341811c.997138 0 1.495707.7478537 1.246422 1.4957074l-1.994276 5.9828299c-.249285.9971383-1.246423 1.4957075-2.243561 1.4957075l-117.91160569.2492845c-.99713831 0-1.24642289-.4985691-.74785373-1.2464229l5.23497613-6.7306836c.49856916-.7478537 1.74499205-1.2464228 2.74213036-1.2464228zm12.962798-22.9341812c.997138 0 1.246422.7478537.747853 1.4957075l-4.237837 6.481399c-.49857.7478537-1.744993 1.4957075-2.492846 1.4957075l-90.2410174-.2492846c-.9971383 0-1.2464229-.4985692-.7478538-1.2464229l5.2349762-6.7306836c.4985691-.7478537 1.744992-1.2464229 2.7421303-1.2464229z" fill="#00acd7"/></svg>
+  </span>
+
+</span>
+    
+    <span><em>golang</em></span>
+  </span>
+</span>
+</div>
+
+<div class="flex mt-2">
+<span
+  class="rounded-full bg-primary-500 dark:bg-primary-400 text-neutral-50 dark:text-neutral-800 px-1.5 py-[1px] text-xs font-normal"
+>
+  <span class="flex flex-row items-center">
+    
+    <span class="mr-1">
+
+  <span class="relative block icon">
+    <?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="System / Terminal">
+<path id="Vector" d="M17 15H12M7 10L10 12.5L7 15M3 15.8002V8.2002C3 7.08009 3 6.51962 3.21799 6.0918C3.40973 5.71547 3.71547 5.40973 4.0918 5.21799C4.51962 5 5.08009 5 6.2002 5H17.8002C18.9203 5 19.4796 5 19.9074 5.21799C20.2837 5.40973 20.5905 5.71547 20.7822 6.0918C21 6.5192 21 7.07899 21 8.19691V15.8031C21 16.921 21 17.48 20.7822 17.9074C20.5905 18.2837 20.2837 18.5905 19.9074 18.7822C19.48 19 18.921 19 17.8031 19H6.19691C5.07899 19 4.5192 19 4.0918 18.7822C3.71547 18.5905 3.40973 18.2837 3.21799 17.9074C3 17.4796 3 16.9203 3 15.8002Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
+  </span>
+
+</span>
+    
+    <span><em>bash</em></span>
+  </span>
+</span>
+</div>
+
+<div class="flex mt-2">
+<span
+  class="rounded-full bg-primary-500 dark:bg-primary-400 text-neutral-50 dark:text-neutral-800 px-1.5 py-[1px] text-xs font-normal"
+>
+  <span class="flex flex-row items-center">
+    
+    <span class="mr-1">
+
+  <span class="relative block icon">
+    
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Inkscape (http://www.inkscape.org/) by Marsupilami -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="719"
+   height="768"
+   viewBox="-1.7338671 -1.7338671 61.2633042 65.4082292"
+   id="svg45453">
+  <defs
+     id="defs45455" />
+  <path
+     d="m 54.22782,11.986615 c -0.5725,-1.1825 -1.235,-2.3237504 -2.00375,-3.4000004 l -8.2125,2.9887504 c 0.955,0.9775 1.7575,2.07625 2.41375,3.25125 l 7.8025,-2.84 z m -36.30287,9.08338 -8.215,2.98875 c 0.105,1.3175 0.3325,2.61875 0.65125,3.89375 l 7.80375,-2.84125 c -0.25375,-1.32 -0.34375,-2.68 -0.24,-4.04125"
+     id="path44560"
+     style="fill:#c22133;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  <path
+     d="m 36.1562,9.6601146 c 1.70875,0.7975004 3.18875,1.8850004 4.4375,3.1600004 l 8.2125,-2.9887504 c -2.275,-3.1925 -5.37375,-5.86 -9.17,-7.63125 -11.74125,-5.475 -25.74875,-0.3775 -31.2225,11.3625004 -1.7725,3.79875 -2.43125,7.83375 -2.12125,11.74125 l 8.21375,-2.98875 c 0.13625,-1.78 0.57,-3.56375 1.36625,-5.27375 C 19.42995,9.4138646 28.5287,6.1038646 36.1562,9.6601146"
+     id="path44564"
+     style="fill:#db212e;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  <path
+     d="m 44.91582,24.668245 c -0.13125,1.77875 -0.58,3.5625 -1.37875,5.27375 -3.55625,7.62875 -12.65625,10.93875 -20.2825,7.3825 -1.71125,-0.79875 -3.2025,-1.8775 -4.44625,-3.155 l -8.19625,2.9825 c 2.27,3.1925 5.365,5.86125 9.16375,7.63375 11.74125,5.47375 25.74625,0.37625 31.22125,-11.365 1.77375,-3.79625 2.4275,-7.83125 2.115,-11.735 l -8.19625,2.9825 z"
+     id="path44572"
+     style="fill:#db212e;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  <path
+     d="m 46.93545,14.641115 -7.80375,2.84 c 1.45,2.5975 2.135,5.5875 1.91,8.595 l 8.19625,-2.98125 c -0.235,-2.94125 -1.01875,-5.8125 -2.3025,-8.45375 m -36.06275,13.124 -7.80375,2.8425 c 0.71625,2.845 1.96,5.54875 3.67,7.955 l 8.195,-2.98375 c -2.10375,-2.16 -3.5025,-4.89375 -4.06125,-7.81375"
+     id="path44576"
+     style="fill:#eb2126;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  <path
+     d="m 53.03832,9.8229946 c -0.25875,-0.42 -0.5275,-0.83375 -0.81375,-1.23625 l -8.2125,2.9887504 c 0.36125,0.37 0.69375,0.7625 1.01125,1.165 l 8.015,-2.9175004 z M 17.89357,22.719365 c -0.02,-0.5475 -0.0113,-1.0975 0.0312,-1.64875 l -8.215,2.98875 c 0.0425,0.52625 0.10875,1.04875 0.1875,1.57 l 7.99625,-2.91 z"
+     id="path44584"
+     style="fill:#ad213b;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  <path
+     d="m 53.11157,21.685615 -8.19625,2.9825 c -0.0863,1.18 -0.31625,2.3625 -0.6925,3.525 l 8.92125,-3.2525 c 0.0638,-1.09 0.0537,-2.1775 -0.0325,-3.255 m -42.49875,15.4675 c 0.63125,0.88875 1.33,1.73625 2.08875,2.53625 l 8.9225,-3.25375 c -1.0425,-0.6525 -1.985,-1.41375 -2.81625,-2.26625 l -8.195,2.98375 z"
+     id="path44588"
+     style="fill:#ba2133;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  <path
+     d="m 52.68932,54.532115 0,0.74 2.14625,0 0,6.55375 0.8125,0 0,-6.55375 2.1475,0 0,-0.74 -5.10625,0 z m -4.9285,0.73938 0,2.4175 2,0 0,0.74 -2,0 0,3.39625 -0.8125,0 0,-7.2925 4.2825,0 0,0.73875 -3.47,0 z m -3.71775,-0.7385 0.8125,0 0,7.29375 -0.8125,0 0,-7.29375 z m -2.90425,7.29287 0,-3.43875 -3.62625,0 0,3.43875 -0.8125,0 0,-7.29375 0.8125,0 0,3.11625 3.62625,0 0,-3.11625 0.8125,0 0,7.29375 -0.8125,0 z m -8.66675,0.11463 c -0.99,0 -1.87625,-0.4275 -2.44875,-1.01 l 0.5425,-0.605 c 0.55125,0.53125 1.1875,0.87625 1.9375,0.87625 0.96875,0 1.57375,-0.48 1.57375,-1.25125 0,-0.6775 -0.40625,-1.0625 -1.74,-1.5425 -1.57375,-0.5625 -2.105,-1.0725 -2.105,-2.125 0,-1.1675 0.91625,-1.86625 2.28125,-1.86625 0.98,0 1.605,0.2925 2.22,0.7825 l -0.52125,0.635 c -0.53125,-0.4375 -1.02125,-0.6775 -1.75,-0.6775 -1.00125,0 -1.4175,0.5 -1.4175,1.07375 0,0.605 0.27125,0.9475 1.73,1.47 1.615,0.5825 2.115,1.125 2.115,2.20875 0,1.14625 -0.89625,2.03125 -2.4175,2.03125 m -5.7415,-0.11463 -2.6775,-3.98 c -0.1775,-0.27125 -0.4175,-0.63625 -0.51125,-0.82375 0,0.27125 0.0212,1.1875 0.0212,1.59375 l 0,3.21 -1.43875,0 0,-7.29375 1.39625,0 2.585,3.855 c 0.1775,0.27125 0.41625,0.63625 0.51,0.82375 0,-0.27125 -0.02,-1.1875 -0.02,-1.595 l 0,-3.08375 1.4375,0 0,7.29375 -1.3025,0 z m -11.50112,0 0,-7.29375 5.06375,0 0,1.4275 -3.605,0 0,1.26125 2.095,0 0,1.41625 -2.095,0 0,1.76125 3.76125,0 0,1.4275 -5.22,0 z m -4.14475,-2.58362 -1.605,0 0,2.58375 -1.45875,0 0,-7.29375 3.18875,0 c 1.375,0 2.51125,0.76125 2.51125,2.3125 0,1.68875 -1.125,2.3975 -2.63625,2.3975 m 0.0738,-3.2925 -1.67875,0 0,1.875 1.69875,0 c 0.6775,0 1.0425,-0.31375 1.0425,-0.94875 0,-0.635 -0.4175,-0.92625 -1.0625,-0.92625 M 3.21,61.940495 c -1.9075,0 -3.21,-1.39625 -3.21,-3.75125 0,-2.355 1.32375,-3.7725 3.23125,-3.7725 1.89625,0 3.19875,1.3975 3.19875,3.7525 0,2.355 -1.32375,3.77125 -3.22,3.77125 m -0.01,-6.075 c -1.02125,0 -1.69875,0.82375 -1.69875,2.30375 0,1.48 0.70875,2.3225 1.73,2.3225 1.02125,0 1.6975,-0.8225 1.6975,-2.3025 0,-1.48 -0.7075,-2.32375 -1.72875,-2.32375"
+     id="path44622"
+     style="fill:#241f21;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+</svg>
+<!-- version: 20110311, original size: 57.79557 61.940495, border: 3% -->
+
+  </span>
+
+</span>
+    
+    <span><em>openshift</em></span>
+  </span>
+</span>
+</div>
+
+<div class="flex mt-2">
+<span
+  class="rounded-full bg-primary-500 dark:bg-primary-400 text-neutral-50 dark:text-neutral-800 px-1.5 py-[1px] text-xs font-normal"
+>
+  <span class="flex flex-row items-center">
+    
+    <span class="mr-1">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor" d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4.4 67.6.1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg>
+  </span>
+
+</span>
+    
+    <span><em>docker</em></span>
+  </span>
+</span>
+</div></p>
+<div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
+  From clusters to websites, I build, develop and automate.
+</div>
+
+
+    </div>
+
+
+
+
+  </section>
+  
+  <section class="mt-10 prose dark:prose-invert">
+    <p class="py-8 border-t">
+      <em>There are no articles to list here yet.</em>
+    </p>
+  </section>
+  
+
+    
+
+  
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+    </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+  
+  <div class="flex items-center justify-between">
+
+    
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      &copy;
+      2024
+      Andreas Hauke
+    </p>
+    
+
+    
+    
+    <p class="text-xs text-neutral-500 dark:text-neutral-400">
+      
+      
+      Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+    </p>
+    
+
+  </div>
+  <script>
+    
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    
+  </script>
+  
+  
+  <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://localhost:1313/"
+  style="z-index:500"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>
