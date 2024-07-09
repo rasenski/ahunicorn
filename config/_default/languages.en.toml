@@ -10,13 +10,13 @@ title = "ah.unicorn"
   dateFormat = "2 January 2006"
  logo = "img/transparent_unicorn.png"
   # secondaryLogo = "img/secondary-logo.png"
- description = "Sit, Fly, Hold."
+ description = "I fly for you."
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
    name = "Andreas Hauke"
    image = "img/grin.jpg"
-   headline = "I fly for you."
+   headline = "drone flights, video production, and expert IT solutions."
    bio = "I fly for you."
    links = [
     { email = "mailto:andreas.p.hauke+unicorn@gmail.com" },

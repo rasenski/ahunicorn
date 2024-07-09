@@ -2,8 +2,9 @@
 title: "hire me"
 ---
 {{< lead >}}
-When you need a Unicorn.
+When you [need a Unicorn](mailto:andreas.p.hauke+ahunicorn@gmail.com).
 {{< /lead >}}
+
 Your partner for innovative video content and comprehensive services!
 
 Dive into the world of ah.unicorn, where breathtaking aerial footage via [drone flights]({{< ref "/drones" >}} "Drone Flights") and digitally produced music merge to create unique social media content.
@@ -14,7 +15,4 @@ Experience videos that are live-scored during mixing, providing a unique musical
 
 In addition to our creative video services, I also offer [IT consulting]({{< ref "/itsolutions" >}} "IT Consulting") and implementation to perfectly complement your projects. ah.unicorn provides social media content creation, event coverage, construction monitoring with drones, paragliding footage, IT consulting, and custom video projects. Through strategic partnerships, I guarantee flexible pricing and continuous innovation.
 
-
-
-
-
+[{{< icon "envelope" >}}](mailto:andreas.p.hauke+ahunicorn@gmail.com)
